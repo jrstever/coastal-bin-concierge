@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata = { title: "Coastal Bin Concierge", description: "Proudly serving San Clemente with reliable bin roll-out and return service.", }; export default function RootLayout({ children }) { return ( <html lang="en"> <body>{children}</body> </html> ); }
